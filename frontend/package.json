@@ -4,12 +4,10 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-        "start": "npm run dev",
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview",
-        "clean": "rm -rf node_modules package-lock.json"
-    },
+  "dev": "vite",
+  "build": "vite build",
+  "start": "vite preview --host 0.0.0.0 --port $PORT"
+},
     "dependencies": {
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
